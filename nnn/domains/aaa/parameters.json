@@ -1,0 +1,17 @@
+{
+ "discoveryServiceProvider": {
+  "conf": {
+   "local": null,
+   "prod": null,
+   "qa": null,
+   "stage": null
+  },
+  "fixedValue": {
+   "local": "simple",
+   "prod": "simple",
+   "qa": "simple",
+   "stage": "simple"
+  },
+  "type": "fixedValue"
+ }
+}

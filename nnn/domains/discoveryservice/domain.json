@@ -1,0 +1,18 @@
+{
+ "id": "DiscoveryService",
+ "description": "Also called DS. An \"reception\" for services. Every server that start running would \"register\" there, and every server could ask SDS about others services addresses.",
+ "ver": "0.0.1",
+ "paths": [],
+ "subStructs": {},
+ "validatorStructs": {},
+ "cacheStructs": {},
+ "sqlStructs": {},
+ "dependencies": [],
+ "gitHash": "",
+ "dockerDigest": "",
+ "git": {},
+ "parameters": {},
+ "lastAssignedPort": "8500",
+ "messages": {},
+ "workspace": {}
+}

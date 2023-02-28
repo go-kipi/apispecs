@@ -1,0 +1,16 @@
+{
+ "fields": [
+  {
+   "name": "-",
+   "type": "array",
+   "subType": "#Peer",
+   "description": "key = service name, value = array of peers who registered to DS",
+   "example": "[bff] = [ { peer1] }, { peer2 }, { peer3 } ]"
+  }
+ ],
+ "permutations": {},
+ "cacheMethods": null,
+ "pluralType": "",
+ "isTypeDeclaration": true,
+ "sqlActions": null
+}

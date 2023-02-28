@@ -1,0 +1,36 @@
+{
+ "version": "1.23.0",
+ "projects": [
+  {
+   "id": "nnn",
+   "title": "nnn",
+   "type": "freeStyle",
+   "permitCi": false,
+   "permitCd": [
+    {
+     "label": "My Local",
+     "value": "local",
+     "permit": false
+    },
+    {
+     "label": "QA",
+     "value": "qa",
+     "permit": true
+    },
+    {
+     "label": "Stage",
+     "value": "stage",
+     "permit": false
+    },
+    {
+     "label": "Production",
+     "value": "prod",
+     "permit": false
+    }
+   ],
+   "startPort": 8000
+  }
+ ],
+ "lastTicket": "vvv",
+ "hash": "16766808-ae33-40ea-b24b-b25fbc3f9cb1"
+}

@@ -1,0 +1,52 @@
+{
+ "fields": [
+  {
+   "name": "Address",
+   "type": "string",
+   "description": "Service IP + Port",
+   "example": "192.168.100.199:8020",
+   "mockFunction": "192.168.100.199:8020"
+  },
+  {
+   "name": "Method",
+   "type": "string",
+   "description": "Call back function - \"call to this function and if u get true, then register me\"",
+   "example": "IsAlive",
+   "mockFunction": "IsAlive"
+  },
+  {
+   "name": "LastTestTime",
+   "type": "date",
+   "format": "2006-01-02 15:04:05",
+   "description": "Last time SDS tested this service. date + time",
+   "example": "2021-08-01 22:11:02",
+   "mockFunction": "2021-08-01 22:12:04"
+  },
+  {
+   "name": "LastGoodResponse",
+   "type": "date",
+   "format": "2006-01-02 15:04:05",
+   "description": "Last good respinse from peer.Method of this service. date + time",
+   "example": "2021-08-01 22:12:04",
+   "mockFunction": "2021-08-01 22:12:04"
+  },
+  {
+   "name": "LastGoodResponseTimeMs",
+   "type": "float64",
+   "description": "How long was the test (LastGoodResponse-LastTestTime). MilliSeconds",
+   "example": "620",
+   "mockFunction": "620"
+  },
+  {
+   "name": "lastPeerHTTPStatus",
+   "type": "string",
+   "description": "Http status response",
+   "example": "200",
+   "mockFunction": "200"
+  }
+ ],
+ "permutations": {},
+ "cacheMethods": null,
+ "pluralType": "",
+ "sqlActions": null
+}

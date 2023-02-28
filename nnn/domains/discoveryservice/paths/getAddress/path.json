@@ -1,0 +1,23 @@
+{
+ "id": "getAddress",
+ "description": "input: service name. output: the best service's address",
+ "type": "internal",
+ "requestFields": [
+  {
+   "name": "serviceName",
+   "type": "string",
+   "description": "the serviceName that the client wants it's address",
+   "example": "\"bff\"",
+   "mockFunction": "\"bff\"",
+   "isRequired": true,
+   "validations": {}
+  }
+ ],
+ "responseFields": {
+  "type": "ref",
+  "subType": "ServiceAddress"
+ },
+ "testCasesFields": [],
+ "summary": "get peer by service name",
+ "tickets": "4928"
+}

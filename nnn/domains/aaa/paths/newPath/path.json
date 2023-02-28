@@ -1,0 +1,12 @@
+{
+ "id": "newPath",
+ "description": "",
+ "type": "internal",
+ "requestFields": [],
+ "responseFields": {
+  "type": ""
+ },
+ "testCasesFields": [],
+ "summary": "",
+ "tickets": ""
+}

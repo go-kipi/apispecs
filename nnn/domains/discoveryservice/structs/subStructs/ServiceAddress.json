@@ -1,0 +1,15 @@
+{
+ "fields": [
+  {
+   "name": "address",
+   "type": "string",
+   "description": "key = service name, value = it's port",
+   "example": "[bff] = 8008",
+   "mockFunction": "[bff] = 8008"
+  }
+ ],
+ "permutations": {},
+ "cacheMethods": null,
+ "pluralType": "",
+ "sqlActions": null
+}

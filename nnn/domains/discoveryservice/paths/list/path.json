@@ -1,0 +1,21 @@
+{
+ "id": "list",
+ "description": "Returns services list as json",
+ "type": "internal",
+ "requestFields": [
+  {
+   "name": "distinct",
+   "type": "bool",
+   "description": "if true, list would return one service per serviceName, when if success - the best MS, if failed - the last. 'false' as default.",
+   "example": "false",
+   "validations": {}
+  }
+ ],
+ "responseFields": {
+  "type": "map",
+  "subType": "PeersPerService"
+ },
+ "testCasesFields": [],
+ "summary": "Returns services list as json",
+ "tickets": "4928"
+}

@@ -1,0 +1,77 @@
+{
+ "assetRoots": {
+  "conf": {
+   "local": "[{\"urlPath\": \"/services\", \"folderPath\": \"./static/services\", \"allowOnProd\": false}]",
+   "prod": "[{\"urlPath\": \"/services\", \"folderPath\": \"./static/services\", \"allowOnProd\": false}]",
+   "qa": "[{\"urlPath\": \"/services\", \"folderPath\": \"./static/services\", \"allowOnProd\": false}]",
+   "stage": "[{\"urlPath\": \"/services\", \"folderPath\": \"./static/services\", \"allowOnProd\": false}]"
+  },
+  "fixedValue": {
+   "local": null,
+   "prod": null,
+   "qa": null,
+   "stage": null
+  },
+  "type": "conf"
+ },
+ "checkAllServicesSeconds": {
+  "conf": {
+   "local": "5",
+   "prod": "5",
+   "qa": "5",
+   "stage": "5"
+  },
+  "fixedValue": {
+   "local": null,
+   "prod": null,
+   "qa": null,
+   "stage": null
+  },
+  "type": "conf"
+ },
+ "debugMode": {
+  "conf": {
+   "local": "true",
+   "prod": "false",
+   "qa": "true",
+   "stage": "true"
+  },
+  "fixedValue": {
+   "local": null,
+   "prod": null,
+   "qa": null,
+   "stage": null
+  },
+  "type": "conf"
+ },
+ "discoveryServiceProvider": {
+  "conf": {
+   "local": null,
+   "prod": null,
+   "qa": null,
+   "stage": null
+  },
+  "fixedValue": {
+   "local": "none",
+   "prod": "none",
+   "qa": "none",
+   "stage": "none"
+  },
+  "type": "fixedValue"
+ },
+ "port": {
+  "conf": {
+   "local": null,
+   "prod": null,
+   "qa": null,
+   "stage": null
+  },
+  "fixedValue": {
+   "local": "8500",
+   "prod": "8500",
+   "qa": "8500",
+   "stage": "8500"
+  },
+  "type": "fixedValue"
+ }
+}

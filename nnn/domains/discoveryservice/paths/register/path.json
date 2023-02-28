@@ -1,0 +1,58 @@
+{
+ "id": "register",
+ "description": "That's the way service client call at the beginning to DS",
+ "type": "internal",
+ "requestFields": [
+  {
+   "name": "ServiceName",
+   "type": "string",
+   "description": "Service caller name",
+   "example": "\"Otp\"",
+   "mockFunction": "\"Otp\"",
+   "isRequired": true,
+   "validations": {
+    "min": {
+     "description": "minimum value",
+     "value": "0",
+     "hasValue": true
+    }
+   }
+  },
+  {
+   "name": "Method",
+   "type": "string",
+   "description": "The function I want SDS to validate me is \"isAlive\"",
+   "example": "\"IsAlive\"",
+   "mockFunction": "\"IsAlive\"",
+   "isRequired": true,
+   "validations": {
+    "min": {
+     "description": "minimum value",
+     "value": "0",
+     "hasValue": true
+    }
+   }
+  },
+  {
+   "name": "port",
+   "type": "string",
+   "description": "What port is the service client",
+   "example": "\"8020\"",
+   "mockFunction": "\"8020\"",
+   "isRequired": true,
+   "validations": {
+    "min": {
+     "description": "minimum value",
+     "value": "0",
+     "hasValue": true
+    }
+   }
+  }
+ ],
+ "responseFields": {
+  "type": ""
+ },
+ "testCasesFields": [],
+ "summary": "Register a service to the services list",
+ "tickets": "4928"
+}

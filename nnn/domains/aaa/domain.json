@@ -1,0 +1,18 @@
+{
+ "id": "Aaa",
+ "description": "",
+ "ver": "0.0.1",
+ "paths": [],
+ "subStructs": {},
+ "validatorStructs": {},
+ "cacheStructs": {},
+ "sqlStructs": {},
+ "dependencies": null,
+ "gitHash": "",
+ "dockerDigest": "",
+ "git": {},
+ "parameters": {},
+ "lastAssignedPort": "8001",
+ "messages": {},
+ "workspace": {}
+}

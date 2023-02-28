@@ -1,0 +1,12 @@
+{
+ "id": "refreshAllServices",
+ "description": "Run on all the saved services and send a request to their call back method, and updates in discovery service list",
+ "type": "internal",
+ "requestFields": [],
+ "responseFields": {
+  "type": ""
+ },
+ "testCasesFields": [],
+ "summary": "Test each service and it's call back method",
+ "tickets": "4928"
+}
